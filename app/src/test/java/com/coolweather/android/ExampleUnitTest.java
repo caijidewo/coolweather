@@ -1,6 +1,13 @@
 package com.coolweather.android;
 
+import android.util.Log;
+
+import com.coolweather.android.db.Province;
+
 import org.junit.Test;
+import org.litepal.crud.DataSupport;
+
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -14,4 +21,5 @@ public class ExampleUnitTest {
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
+
 }
